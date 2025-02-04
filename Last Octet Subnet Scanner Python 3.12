@@ -1,5 +1,6 @@
-##### Last Octet Subnet Scanner #####                                                                                   # By Sergi Morla.
+##### Last Octet Subnet Scanner Python 3.12 ##### By Sergi Morlà.
 # This script takes a 12-digit input IP address in format "XXX.XXX.XXX.XXX" and scans all the IPs in the last octet.
+
 import platform
 import subprocess
 import re
