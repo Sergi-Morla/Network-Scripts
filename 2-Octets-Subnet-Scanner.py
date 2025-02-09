@@ -1,6 +1,7 @@
 ##### Last 2 Octets Subnet Scanner Python 3.12 ##### By Sergi Morlà.
 # This script takes a 12-digit input IP address in format "XXX.XXX.XXX.XXX" and scans all the IPs in the last 2 octets.
 # This means scanning 65.536 IPs. It takes some time and demands CPU.
+# It returns as an output the TTL taken from the ICMP response and estimated OS for all the IPs in the same X/16 subnet.
 
 import platform
 import subprocess
